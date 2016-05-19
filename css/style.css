@@ -19,13 +19,17 @@ input {
 }
 
 /* Column types */
-th.absence-col {
+th.absent-col {
     background-color: #f00;
 }
 
-td.absence-col {
+td.absent-col {
     background-color: #ffecec;
     color: #f00;
+    text-align: center;
+}
+
+td.present-col {
     text-align: center;
 }
 

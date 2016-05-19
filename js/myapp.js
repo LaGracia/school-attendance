@@ -22,7 +22,7 @@
             attendance[name] = [];
 
             // Loop over the name array 11 times; add the random number to it
-            for (var i = 0; i <= 11; i++) {
+            for (var i = 1; i <= 12; i++) {
                 attendance[name].push(getRandom());
             }
         });
